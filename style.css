@@ -1,0 +1,209 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* css reset above */
+
+body {
+  height: 255vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  height: 5vh;
+  border: 1px solid green;
+}
+
+.home-page {
+  position: relative;
+  height: 50vh;
+  border: 1px solid red;
+  background-image: url("images/main.jpg");
+  background-size: 100% 700px;
+  background-repeat: no-repeat;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.content-container {
+  position: absolute;
+  right: 300px;
+  bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  /* text-align: left; */
+}
+
+.content-container h1 {
+  color: black;
+  line-height: 1.2;
+  font-weight: bold;
+  font-size: 3.8em;
+  padding-bottom: 10px;
+}
+
+.content-container input {
+  width: 70%;
+  padding: 5px;
+}
+
+.content-container button {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+}
+
+.spans-wrapper {
+  padding-top: 25px;
+}
+
+.fa-twitter,
+.fa-instagram {
+  padding-left: 20px;
+}
+
+.about-us {
+  height: 50vh;
+  border: 1px solid yellow;
+}
+
+.online-orders {
+  height: 50vh;
+  border: 1px solid purple;
+}
+
+.opening-hours {
+  height: 50vh;
+  border: 1px solid brown;
+}
+
+.reviews {
+  height: 50vh;
+  border: 1px solid blue;
+}
