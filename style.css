@@ -216,7 +216,6 @@ nav {
   justify-content: center;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  box-sizing: border-box;
 }
 
 .arrow-container i {
