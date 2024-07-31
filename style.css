@@ -231,3 +231,111 @@ nav {
 .discover-menu-btn:hover {
   cursor: pointer;
 }
+
+/*Menu-Order now section styling*/
+
+#online-order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  gap: 1.4em;
+}
+
+#online-order span {
+  color: #ffa500;
+  font-weight: 500;
+}
+
+#online-order h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.menu {
+  display: flex;
+  min-width: 25%;
+}
+
+.menu ul a {
+  color: black;
+}
+
+.menu ul a:hover {
+  color: #ffa500;
+}
+
+.menu ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: rgba(219, 238, 238, 0.719);
+  border: 1px solid rgba(219, 238, 238, 0.719);
+  padding: 5px;
+  box-shadow: 10px 5px 15px rgba(117, 146, 146, 0.719);
+}
+
+.menu ul li:first-child a {
+  color: #ffa500;
+}
+
+.images-wrapper {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 2em;
+}
+
+.images-wrapper img {
+  max-width: 400px;
+  max-height: 350px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  height: 100%;
+}
+
+.overlay-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  gap: 1em;
+  background-color: rgba(140, 139, 148, 0.658);
+}
+
+.overlay-text #price {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.overlay-text #stars {
+  color: gold;
+}
+
+.overlay-text #breakfast-title {
+  font-size: 2rem;
+  color: white;
+}
+
+.overlay-text button {
+  background-color: #ffa500;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ffa500;
+  color: white;
+  min-width: 30%;
+}
+
+.overlay-text button:hover {
+  cursor: pointer;
+}
