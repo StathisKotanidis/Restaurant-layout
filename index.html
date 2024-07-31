@@ -3,55 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restaurant Layout</title>
+    <title>Flavor Fusion Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="home-page">
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About us</li>
-          <li>Menu</li>
-          <li>Order Now</li>
-          <li>Blog</li>
-          <li>Location</li>
-          <li>
-            <i class="fa-solid fa-cart-shopping" style="color: #9c9696"></i>
-          </li>
-          <li><i class="fa-solid fa-magnifying-glass"></i></li>
-        </ul>
-        <div class="content-container">
-          <h1>
-            Welcome <br />
-            To Our Cuisine <br />
-            Restaurant
-          </h1>
-          <div class="search-bar">
-            <input type="text" placeholder="Search here" />
-            <button>Location</button>
+    <div class="grid-container">
+      <section id="home">
+        <nav>
+          <div class="logo-section">
+            <img src="images/logo.png" alt="restaurant-logo" />
           </div>
-          <div class="spans-wrapper">
-            <i class="fa-brands fa-facebook-f" style="color: #ef6b25"></i>
-            <span>255k</span>
-            <i class="fa-brands fa-twitter" style="color: #ef6b25"></i>
-            <span>62k</span>
-            <i class="fa-brands fa-instagram" style="color: #ef6b25"></i>
-            <span>55k</span>
+          <ul class="navlinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Menu</a></li>
+            <li><a href="">Order Now</a></li>
+            <li><a href="">Book</a></li>
+            <li><a href="">Testimonials</a></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </nav>
+        <div class="home-content-wrapper">
+          <h1>Welcome To Flavor Fusion Restaurant</h1>
+          <div class="search-box">
+            <input type="text" placeholder="Search here" />
+            <span> <i class="bx bx-search"></i></span>
+            <button>
+              Location<i class="bx bx-chevron-down arrow-down"></i>
+            </button>
+          </div>
+          <div class="social-media-wrapper">
+            <span><i class="bx bxl-facebook"></i> 252k</span>
+            <span><i class="bx bxl-twitter"></i> 62k</span>
+            <span><i class="bx bxl-instagram"></i> 55k</span>
           </div>
         </div>
-      </nav>
-    </section>
-    <section class="about-us"></section>
-    <section class="online-orders"></section>
-    <section class="opening-hours"></section>
-    <section class="reviews"></section>
+      </section>
+      <section id="about">
+        <div class="about-content-wrapper">
+          <span>About us</span>
+          <h2>Discover our Restaurant Story</h2>
+          <p>
+            Welcome to Flavor Fusion, where culinary traditions from around the
+            world come together in perfect harmony. Our restaurant is a
+            celebration of diverse flavors, offering a menu that combines the
+            best of global cuisine with a modern twist. At Flavor Fusion, every
+            dish is crafted with fresh, high-quality ingredients and a passion
+            for innovation. Our chefs draw inspiration from different cultures,
+            blending spices and techniques to create a dining experience that is
+            both familiar and adventurous. Whether you're here for a quick bite
+            or a leisurely meal, Flavor Fusion promises to delight your taste
+            buds and leave you craving more. Come join us and savor the fusion
+            of flavors that make every visit a memorable journey.
+          </p>
+          <button class="discover-menu-btn">
+            Discover Menu
+            <span class="arrow-container">
+              <i class="bx bx-right-arrow-alt"></i>
+            </span>
+          </button>
+        </div>
+      </section>
+      <section id="menu"></section>
+      <section id="order-now"></section>
+      <section id="book-table"></section>
+      <section id="testimonials"></section>
+    </div>
   </body>
 </html>
