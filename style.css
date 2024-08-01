@@ -81,7 +81,7 @@ nav {
   display: flex;
   flex-direction: column;
   max-width: 50%;
-  padding: 4em 0 4em 3em;
+  padding: 4em 0 4em 8em;
   gap: 1.5em;
 }
 
