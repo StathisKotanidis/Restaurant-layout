@@ -1025,3 +1025,216 @@
     width: 90%;
   }
 }
+
+@media (min-width: 1026px) and (max-width: 1281px) {
+  nav {
+    padding: 10px;
+  }
+
+  .navlinks {
+    flex-basis: 70%;
+  }
+
+  .navlinks a,
+  .navlinks i {
+    font-size: 1.2rem;
+  }
+
+  .home-content-wrapper {
+    max-width: 90%;
+    padding: 1.5em;
+  }
+
+  .home-content-wrapper h1 {
+    max-width: 40%;
+    font-size: 3rem;
+  }
+
+  .search-box input {
+    max-width: 35%;
+    font-size: 10px;
+  }
+
+  .search-box span i {
+    top: 9px;
+  }
+
+  .search-box button {
+    right: 65%;
+    top: 3%;
+    padding: 8px;
+  }
+
+  .social-media-wrapper {
+    max-width: 30%;
+  }
+
+  .social-media-wrapper span {
+    font-size: 1.2rem;
+  }
+
+  .social-media-wrapper i {
+    font-size: 1.2rem;
+  }
+
+  /*About section styling*/
+
+  .about-content-wrapper span {
+    font-size: 1.2rem;
+  }
+
+  .about-content-wrapper {
+    max-width: 100%;
+    padding: 2em 0 2em 1em;
+  }
+
+  .about-content-wrapper h2 {
+    font-size: 3rem;
+    max-width: 40%;
+  }
+
+  .about-content-wrapper p {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+
+  .discover-menu-btn {
+    width: 25%;
+    font-size: 1.2rem;
+    height: 40px;
+  }
+
+  .arrow-container i {
+    font-size: 1.1rem;
+  }
+
+  /*Menu-Order now section styling*/
+
+  #online-order span {
+    font-size: 1.2rem;
+  }
+
+  #online-order {
+    padding: 2em 0 3em 0;
+  }
+
+  #online-order h2 {
+    font-size: 2.5rem;
+  }
+
+  .menu {
+    min-width: 90%;
+    padding: 2em;
+  }
+
+  .menu ul li {
+    font-size: 1.2rem;
+  }
+
+  .menu ul {
+    padding: 10px;
+  }
+
+  .images-wrapper {
+    max-width: 100%;
+    flex-direction: row;
+  }
+
+  .images-wrapper img {
+    max-width: 230px;
+  }
+
+  .overlay-text {
+    gap: 1em;
+    height: 100%;
+  }
+
+  .overlay-text #breakfast-title {
+    font-size: 1.5rem;
+  }
+
+  .overlay-text #price {
+    font-size: 1.5rem;
+  }
+
+  #stars {
+    font-size: 1rem;
+  }
+
+  .overlay-text button {
+    min-width: 40%;
+    font-size: 1rem;
+  }
+
+  /*Booking section styling*/
+
+  #book-table {
+    padding: 2em 1em 1em 1em;
+  }
+  .contact-info span:first-child {
+    font-size: 1.2rem;
+  }
+
+  .contact-info {
+    gap: 1.5em;
+  }
+
+  .contact-info h2 {
+    font-size: 2.5rem;
+  }
+
+  .contact-info i {
+    font-size: 1.3em;
+  }
+
+  .opening-hours {
+    min-width: 100%;
+  }
+
+  .monday-tuesday,
+  .friday-sunday {
+    gap: 0.2rem;
+    margin-top: 2em;
+  }
+
+  .monday-tuesday span:first-child,
+  .friday-sunday span:first-child {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .monday-tuesday span:last-child,
+  .friday-sunday span:last-child {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  /*Testimonial section styling */
+
+  #testimonials {
+    padding: 2em;
+    gap: 0.8em;
+  }
+
+  #testimonials span:first-child {
+    font-size: 1.2rem;
+  }
+
+  #testimonials h2 {
+    font-size: 2.5rem;
+  }
+
+  #testimonials img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  #testimonials .customer-info span:first-child {
+    font-size: 2rem;
+  }
+
+  #testimonials p {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+}
